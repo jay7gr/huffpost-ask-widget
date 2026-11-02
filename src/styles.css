@@ -1,0 +1,44 @@
+@theme {
+  --color-hp-green: #164b49;
+  --color-hp-green-mid: #2e7061;
+  --color-hp-mint: #61ae96;
+  --color-hp-mint-soft: #b3dace;
+  --color-hp-wash: #e9f8ed;
+  --color-hp-bright: #0dbe98;
+  --color-hp-pink: #cb2559;
+  --color-hp-ink: #222222;
+  --color-hp-muted: #757575;
+  --color-hp-line: #e5e5e5;
+  --color-hp-paper: #ffffff;
+  --color-hp-fog: #f6f6f6;
+
+  --font-display: "Barlow Condensed", "Arial Narrow", Impact, sans-serif;
+  --font-sans: Montserrat, "Proxima Nova", "Segoe UI", sans-serif;
+
+  --shadow-hp: 4px 4px 0 #61ae96;
+  --radius-hp: 2px;
+  --radius-panel: 4px;
+  --radius-pill: 999px;
+  --width-pill: 18.25rem;
+  --width-anchor: 19.5rem;
+}
+
+.kicker {
+  font-family: var(--font-display);
+  font-size: 0.6875rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+
+.hp-wordmark {
+  font-family: var(--font-display);
+  font-size: clamp(1.35rem, 3.6vw, 1.85rem);
+  font-weight: 800;
+  font-style: italic;
+  letter-spacing: -0.03em;
+  line-height: 1;
+}
+
+.hp-wordmark-sm { font-size: 1.15rem; }
